@@ -18,33 +18,9 @@ Desenvolver uma aplicação React utilizando componentes reutilizáveis, organiz
 **Footer:** exibe o rodapé da página.
 **Card:** componente reutilizável que recebe título e descrição através de props.
 **Lista:** recebe um array de strings e utiliza o método `.map()` para renderizar dinamicamente os elementos, atribuindo uma `key` única a cada item.
-**App:** componente principal responsável por organizar e renderizar os demais componentes utilizando React Fragments.
-
-## Como executar o projeto
-
-**1. Clonar o repositório**
-
-```bash
-git clone URL_DO_REPOSITORIO
+**App:** componente principal responsável por organizar e renderizar os demais componentes utilizando React Fragments
 ```
 
-**2. Acessar a pasta**
-
-```bash
-cd entregavel-react/entregavel-1
-```
-
-**3. Instalar as dependências**
-
-```bash
-npm install
-```
-
-**4. Iniciar o servidor**
-
-```bash
-npm run dev
-```
 
 ## Reflexão — Programação imperativa e declarativa
 
