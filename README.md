@@ -6,7 +6,7 @@ Repositório com os entregáveis da disciplina, cada um em sua própria pasta.
 |---|---|
 | [entregavel-1](./entregavel-1) | Fundamentos de React e Componentes |
 | [entregavel-2](./entregavel-2) | Biblioteca de componentes com Tailwind CSS |
-| entregavel-3 | em breve |
+| [entregavel-3](./entregavel-3) | Interatividade e useState (carrinho de compras) |
 | entregavel-4 | em breve |
 | entregavel-5 | em breve |
 | entregavel-6 | em breve |
