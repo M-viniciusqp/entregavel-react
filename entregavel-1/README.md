@@ -18,9 +18,7 @@ Desenvolver uma aplicação React utilizando componentes reutilizáveis, organiz
 **Footer:** exibe o rodapé da página.
 **Card:** componente reutilizável que recebe título e descrição através de props.
 **Lista:** recebe um array de strings e utiliza o método `.map()` para renderizar dinamicamente os elementos, atribuindo uma `key` única a cada item.
-**App:** componente principal responsável por organizar e renderizar os demais componentes utilizando React Fragments
-```
-
+**App:** componente principal responsável por organizar e renderizar os demais componentes utilizando React Fragments.
 
 ## Reflexão — Programação imperativa e declarativa
 
