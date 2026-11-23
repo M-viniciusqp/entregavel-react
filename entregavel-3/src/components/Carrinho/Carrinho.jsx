@@ -13,13 +13,18 @@ function Carrinho({ itens, total, onRemover, onLimpar }) {
           <ul className="divide-y divide-gray-200">
             {itens.map((item) => (
               <li key={item.id} className="flex items-center justify-between gap-2 py-2">
-                <div>
-                  <p className="font-medium text-gray-800">
-                    {item.emoji} {item.nome}
-                  </p>
-                  <p className="text-sm text-gray-500">
-                    {item.quantidade} x {formatarPreco(item.preco)}
-                  </p>
+                <div className="flex items-center gap-3">
+                  <img
+                    src={item.imagem}
+                    alt={item.nome}
+                    className="h-12 w-12 rounded-md object-cover"
+                  />
+                  <div>
+                    <p className="font-medium text-gray-800">{item.nome}</p>
+                    <p className="text-sm text-gray-500">
+                      {item.quantidade} x {formatarPreco(item.preco)}
+                    </p>
+                  </div>
                 </div>
                 <div className="flex items-center gap-3">
                   <span className="font-semibold text-gray-800">

@@ -34,6 +34,15 @@ O valor total é calculado com `reduce` a cada renderização. Ao clicar em "Adi
 - `Checkout`
 - `Button`, `Input` e `Alert` (reaproveitados do entregável 2)
 
+## Imagens
+
+As fotos dos produtos (pasta `public/produtos`) vêm do Wikimedia Commons:
+
+- `mouse.jpg`, `mousepad.jpg` e `monitor.jpg`: domínio público
+- `webcam.jpg`: CC0
+- `teclado.jpg`: "Mechanical Keyboard.jpg", licença CC BY-SA 4.0
+- `headset.jpg`: "Logitech G35 side view.jpg", licença CC BY-SA 3.0
+
 ## Reflexão — Imutabilidade do estado
 
 **Por que não devemos mutar o estado diretamente (ex: `carrinho.push(item)`) e qual a importância do spread operator (`[...carrinho, item]`) no React?**
